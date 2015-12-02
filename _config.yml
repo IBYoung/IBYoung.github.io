@@ -1,0 +1,17 @@
+# Site settings
+title: IBYoung is coming
+header-img: img/home-bg.jpg
+email: cywhoyi@gmail.com
+description: “人生在世，体验不一样的生活方式!”
+baseurl: "/startbootstrap-clean-blog-jekyll"
+url: "http://cywhoyi.iteye.com"
+twitter_username: SBootstrap
+github_username:  davidtmiller
+facebook_username:  IronSummitMedia
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
