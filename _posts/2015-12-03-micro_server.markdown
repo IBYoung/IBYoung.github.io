@@ -3,14 +3,14 @@ layout:     post
 title:      "Micro Server"
 subtitle:   "Base on spring-boot and vert.x3 framework,micro-server has been build."
 date:       2015-12-03 12:00:00
-author:     "Start Bootstrap"
+author:     "Young"
 header-img: "img/post-bg-01.jpg"
 ---
 
-<p>基于spring-boot和vert.x3的开源框架建立的微服务平台，提供了高性能的可伸缩的backend服务</p>
-<h2 class="section-heading">Reaching for the Stars</h2>
+<p>基于spring-boot和Vertx 3.0的开源框架建立的微服务平台，提供了高性能的可伸缩的backend服务</p>
+<h2 class="section-heading">micro server</h2>
 
-<p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
+<p>基于spring-boot和Vertx 3.0的开源框架建立的微服务平台，提供了高性能的可伸缩的backend服务,单Verticle接受，多个Verticle能够分发接受请求。</p>
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/post-sample-image.jpg" alt="Post Sample Image">
