@@ -12,6 +12,8 @@ header-img: "img/post-bg-01.jpg"
 
 <p>通过netty4，把我们的请求根据我们的规则，路由到不同到节点</p>
 
+<p><a href="https://github.com/IBYoung/vert.3x_gateway">Gateway</a></p>
+
 <a href="#">
     <img src="{{ site.baseurl }}/img/post-sample-image.jpg" alt="Post Sample Image">
 </a>
