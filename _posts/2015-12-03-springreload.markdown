@@ -1,20 +1,19 @@
 ---
 layout:     post
-title:      "Gateway"
-subtitle:   "Base on spring and netty4 framework,gateway has been build."
-date:       2015-12-03 11:00:00
+title:      "springreload"
+subtitle:   "spring reload"
+date:       2015-12-03 10:00:00
 author:     "Young"
 header-img: "img/post-bg-01.jpg"
 ---
 
 <p></p>
-<h2 class="section-heading">gateway route</h2>
+<h2 class="section-heading">spring reload commpent</h2>
 
-<p>通过netty4，把我们的请求根据我们的规则，路由到不同到节点</p>
+<p>基于spring的对于mybatis的配置修改，而进行热部署，而不需要重新启动tomcat，mapper文件能够马上更新</p>
 
-<p><a href="https://github.com/IBYoung/vert.3x_gateway">Gateway</a></p>
 
-<p><a href="http://cywhoyi.iteye.com/blog/2252623">服务架构设计</a></p>
+<p><a href="http://cywhoyi.iteye.com/blog/2247283">介绍</a></p>
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/post-sample-image.jpg" alt="Post Sample Image">

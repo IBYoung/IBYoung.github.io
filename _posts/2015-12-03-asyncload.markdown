@@ -1,20 +1,20 @@
 ---
 layout:     post
-title:      "Gateway"
-subtitle:   "Base on spring and netty4 framework,gateway has been build."
-date:       2015-12-03 11:00:00
+title:      "Asyncload"
+subtitle:   "Asyncload commponet"
+date:       2015-12-03 10:00:00
 author:     "Young"
 header-img: "img/post-bg-01.jpg"
 ---
 
 <p></p>
-<h2 class="section-heading">gateway route</h2>
+<h2 class="section-heading">Asyncload commponet</h2>
 
-<p>通过netty4，把我们的请求根据我们的规则，路由到不同到节点</p>
+<p>异步处理到方式，把service层中的方法全部代理后，并行处理方式去完成</p>
 
-<p><a href="https://github.com/IBYoung/vert.3x_gateway">Gateway</a></p>
-
-<p><a href="http://cywhoyi.iteye.com/blog/2252623">服务架构设计</a></p>
+<p><a href="https://github.com/IBYoung/asyncload">Gateway</a></p>
+<p>具体说明</p>
+<p><a href="http://cywhoyi.iteye.com/blog/2233279">介绍</a></p>
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/post-sample-image.jpg" alt="Post Sample Image">
