@@ -16,7 +16,7 @@ header-img: "img/post-bg-01.jpg"
 <p><a href="https://github.com/IBYoung/spring4.doc--translation">介绍</a></p>
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/post-sample-image.jpg" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/post-bg-02.jpg" alt="Post Sample Image">
 </a>
 <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
 
