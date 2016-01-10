@@ -9,8 +9,7 @@ header-img: "img/post-bg-01.jpg"
 
 <p></p>
 <h2 class="section-heading">JDK8 Lambda Manual</h2>
-
-<p>flagmap的功能把多个list整合在一起进行流化</p>
+<p>
 <pre>
   <code class="java">
         // BEGIN flatmap_characters
@@ -22,6 +21,15 @@ header-img: "img/post-bg-01.jpg"
         // END flatmap_characters
 </code>
 </pre>
+</p>
+
+
+
+
+<p>flagmap的功能把多个list整合在一起进行流化</p>
+
+
+
 <p><a href="http://cywhoyi.iteye.com/blog/2225792">介绍</a></p>
 
 <a href="#">
