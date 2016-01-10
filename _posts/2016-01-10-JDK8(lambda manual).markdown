@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "antlr4"
-subtitle:   "antlr4"
-date:       2015-12-04 10:00:00
+title:      "Lambda Manual"
+subtitle:   "Lambda Manual"
+date:       2016-01-10 10:00:00
 author:     "Young"
 header-img: "img/post-bg-01.jpg"
 ---
@@ -10,7 +10,7 @@ header-img: "img/post-bg-01.jpg"
 <p></p>
 <h2 class="section-heading">antlr4</h2>
 
-<p>base on antlr4 framework,design a dsl parse engine.</p>
+<p>JDK8 Lambda Manual</p>
 
 
 <p><a href="http://cywhoyi.iteye.com/blog/2225792">介绍</a></p>
