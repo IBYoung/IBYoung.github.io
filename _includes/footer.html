@@ -77,3 +77,22 @@
 
 <!-- Custom Theme JavaScript -->
 <script src="{{ "/js/highlight.pack.js " | prepend: site.baseurl }}"></script>
+
+<script>
+    $(document).ready(function() {
+        $('pre code').each(function(i, block) {
+            hljs.highlightBlock(block);
+        });
+    });
+
+    function findCode(pre) {
+        var node = pre.firstChild;
+        return (node.nodeName == 'CODE' && node.className) ? node : false;
+    }
+
+    addEventListener('load', function() {
+        Array.prototype.map.call(document.getElementsByTagName('pre'), findCode).
+                filter(Boolean).
+                forEach(function(code){hljs.highlightBlock(code);});
+    }, false);
+</script>
