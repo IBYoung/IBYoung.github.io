@@ -11,7 +11,7 @@ header-img: "img/post-bg-01.jpg"
 <h2 class="section-heading">JDK8 Lambda Manual</h2>
 
 <p>flagmap的功能把多个list整合在一起进行流化</p>
-
+<pre>
   <code class="java">
         // BEGIN flatmap_characters
         List<Integer> together = Stream.of(asList(1, 2), asList(3, 4))
@@ -21,7 +21,7 @@ header-img: "img/post-bg-01.jpg"
         assertEquals(asList(1, 2, 3, 4), together);
         // END flatmap_characters
 </code>
-
+</pre>
 
 <p><a href="http://cywhoyi.iteye.com/blog/2225792">介绍</a></p>
 
