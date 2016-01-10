@@ -34,6 +34,12 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script>
+        $(document).ready(function() {
+            $('pre code').each(function(i, block) {
+                hljs.highlightBlock(block);
+            });
+        });
+
         function findCode(pre) {
             var node = pre.firstChild;
             return (node.nodeName == 'CODE' && node.className) ? node : false;
