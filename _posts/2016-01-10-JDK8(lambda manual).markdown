@@ -13,13 +13,15 @@ header-img: "img/post-bg-01.jpg"
 <p>flagmap的功能把多个list整合在一起进行流化</p>
 <pre>
   <code class="java">
-        // BEGIN flatmap_characters
         List<Integer> together = Stream.of(asList(1, 2), asList(3, 4))
                 .flatMap(numbers -> numbers.stream())
                 .collect(toList());
 
         assertEquals(asList(1, 2, 3, 4), together);
-        // END flatmap_characters
+        
+        
+        
+        
 </code>
 </pre>
 
