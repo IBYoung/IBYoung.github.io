@@ -34,5 +34,16 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script>
     <![endif]-->
+    <script>
+        function findCode(pre) {
+            var node = pre.firstChild;
+            return (node.nodeName == 'CODE' && node.className) ? node : false;
+        }
 
+        addEventListener('load', function() {
+            Array.prototype.map.call(document.getElementsByTagName('pre'), findCode).
+                    filter(Boolean).
+                    forEach(function(code){hljs.highlightBlock(code);});
+        }, false);
+    </script>
 </head>
