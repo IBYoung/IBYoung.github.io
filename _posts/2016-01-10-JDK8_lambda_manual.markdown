@@ -6,7 +6,18 @@ date:       2016-01-10 10:00:00
 author:     "Young"
 header-img: "img/post-bg-01.jpg"
 ---
+  <script>
+        function findCode(pre) {
+            var node = pre.firstChild;
+            return (node.nodeName == 'CODE' && node.className) ? node : false;
+        }
 
+        addEventListener('load', function() {
+            Array.prototype.map.call(document.getElementsByTagName('pre'), findCode).
+                    filter(Boolean).
+                    forEach(function(code){hljs.highlightBlock(code);});
+        }, false);
+    </script>
 <p></p>
 <h2 class="section-heading">JDK8 Lambda Manual</h2>
 
