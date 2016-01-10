@@ -8,13 +8,10 @@ header-img: "img/post-bg-01.jpg"
 ---
 
 <p></p>
-<h2 class="section-heading">antlr4</h2>
+<h2 class="section-heading">JDK8 Lambda Manual</h2>
 
-<p>JDK8 Lambda Manual</p>
-
-
-> flagmap的把多个list整合在一起进行流化
-<pre class=”brush: java; gutter: true;”>
+<p>flagmap的把多个list整合在一起进行流化</p>
+'''java
  // BEGIN flatmap_characters
         List<Integer> together = Stream.of(asList(1, 2), asList(3, 4))
                 .flatMap(numbers -> numbers.stream())
@@ -22,7 +19,7 @@ header-img: "img/post-bg-01.jpg"
 
         assertEquals(asList(1, 2, 3, 4), together);
         // END flatmap_characters
-</pre>
+'''
 <p><a href="http://cywhoyi.iteye.com/blog/2225792">介绍</a></p>
 
 <a href="#">
