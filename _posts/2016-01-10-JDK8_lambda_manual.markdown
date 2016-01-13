@@ -15,6 +15,17 @@ header-img: "img/post-bg-01.jpg"
                 .collect(toList());
 
         assertEquals(asList(1, 2, 3, 4, 5), together);
+        
+        
+        
+         // BEGIN strings_numbers_filter
+                List<String> beginningWithNumbers
+                        = Stream.of("a", "1abc", "abc1")
+                        .filter(value -> isDigit(value.charAt(0)))
+                        .collect(toList());
+        
+                assertEquals(asList("1abc"), beginningWithNumbers);
+                // END strings_numbers_filter
 </code>
 </pre>
 
