@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Experimental code playing with Go and WebAssembly"
+title:      "Golang Gateway"
 date:       2018-12-28 12:00:00
 author:     "chen yang"
 header-img: "img/post-bg-02.jpg"
