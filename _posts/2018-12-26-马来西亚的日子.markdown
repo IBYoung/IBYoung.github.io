@@ -1,0 +1,9 @@
+---
+layout:     post
+title:      "马来西亚的日子"
+subtitle:   "马来西亚的日子"
+date:       2018-12-25 10:00:00
+author:     "Young"
+header-img: "img/post-bg-01.jpg"
+---
+<h2 class="section-heading">大马</h2>
