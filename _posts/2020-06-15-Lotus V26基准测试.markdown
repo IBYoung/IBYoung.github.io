@@ -6,6 +6,8 @@ author:     "chen yang"
 header-img: "img/post-bg-03.jpg"
 ---
 
+
+---
 	*   Empty
 		|   |
 		|   v
@@ -41,6 +43,7 @@ header-img: "img/post-bg-03.jpg"
 		    |                     ^
 		    *---------------------/
 
+---
 
 ## Lotus版本
 ```
