@@ -5,3 +5,15 @@ date:       2020-06-15 12:53:00
 author:     "chen yang"
 header-img: "img/post-bg-01.jpg"
 ---
+
+## Lotus版本
+```
+commit a032bbe08751f3c7aa88a56b22276bad5584a07d (HEAD -> master, origin/master, origin/HEAD)
+Merge: 9fbc7aaf a2943a6b
+Author: Jakub Sztandera <kubuxu@protocol.ai>
+Date:   Fri Jun 12 19:27:51 2020 +0200
+
+    Merge pull request #2012 from filecoin-project/schomatis/feat/doc/README/branches
+
+    doc: active development branches
+```
