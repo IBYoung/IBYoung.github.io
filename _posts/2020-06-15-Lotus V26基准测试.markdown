@@ -38,8 +38,12 @@ AMD Ryzen Threadripper 3970X 32-Core Processor
 
 ## 内存
 ```
-内存：        125G
-交换：        157G
+RAM: 128GB DDR4
+SWAP: 128GB
+HARD DISC:
+    System: 1TB Samsung 970Evo (Swap is here)
+    For IPFS: 2x16TB RAID0
+VGA: NVidia Geforce RTX 2080Ti 11GB
 ```
 
 ## Bench测试结果数据(优化后Precommit1）
