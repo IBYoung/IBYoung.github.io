@@ -3,7 +3,7 @@ layout:     post
 title:      "FIL lotus Benchmark v26 基准测试"
 date:       2020-06-15 12:53:00
 author:     "chen yang"
-header-img: "img/post-bg-02.jpg"
+header-img: "img/post-bg-03.jpg"
 ---
 
 ## Lotus版本
@@ -20,7 +20,7 @@ Date:   Fri Jun 12 19:27:51 2020 +0200
 ## Bench版本
 ```
 root@test-miner:~# ./bench --version
-2020-05-14T13:43:58.381+0800	INFO	lotus-bench	lotus-bench/main.go:74	Starting lotus-bench
+2020-07-14T13:43:58.381+0800	INFO	lotus-bench	lotus-bench/main.go:74	Starting lotus-bench
 lotus-bench version 0.3.0
 ```
 
@@ -28,7 +28,7 @@ lotus-bench version 0.3.0
 ## 显卡版本
 ```
 nvidia-smi
-GeForce RTX 2080ti
+GeForce RTX 2080ti 11GB
 ```
 
 ## CPU
