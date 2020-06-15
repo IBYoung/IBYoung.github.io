@@ -17,6 +17,13 @@ Date:   Fri Jun 12 19:27:51 2020 +0200
 
     doc: active development branches
 ```
+## Bench版本
+```
+root@test-miner:~# ./bench --version
+2020-05-14T13:43:58.381+0800	INFO	lotus-bench	lotus-bench/main.go:74	Starting lotus-bench
+lotus-bench version 0.3.0
+```
+
 
 ## 显卡版本
 ```
@@ -36,6 +43,11 @@ AMD Ryzen Threadripper 3970X 32-Core Processor
 ```
 
 ## Bench测试结果数据(优化后Precommit1）
+
+```
+tmux RUST_LOG=info FIL_PROOFS_MAXIMIZE_CACHING=1 ./bench sealing --sector-size 32G   2>&1| tee log
+```
+
 ```
 results (v26) (34359738368)
 seal: addPiece: 6m7.624609796s (89.1 MiB/s)
