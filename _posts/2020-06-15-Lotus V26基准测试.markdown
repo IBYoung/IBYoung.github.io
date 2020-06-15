@@ -18,4 +18,41 @@ Date:   Fri Jun 12 19:27:51 2020 +0200
     doc: active development branches
 ```
 
+## 显卡版本
+```
+nvidia-smi
+GeForce RTX 2080ti
+```
 
+## CPU
+```
+AMD Ryzen Threadripper 3970X 32-Core Processor
+```
+
+## 内存
+```
+内存：        125G
+交换：        157G
+```
+
+## Bench测试结果数据
+```
+results (v26) (34359738368)
+seal: addPiece: 6m7.624609796s (89.1 MiB/s)
+seal: preCommit phase 1: 3h6m40.589776601s (2.93 MiB/s)
+seal: preCommit phase 2: 2h7m18.955245157s (4.29 MiB/s)
+seal: commit phase 1: 6.512451269s (4.91 GiB/s)
+seal: commit phase 2: 1h33m50.453247266s (5.82 MiB/s)
+seal: verify: 35.519876ms
+
+generate candidates: 4.407319ms (7.09 TiB/s)
+compute winnnig post proof (cold): 5.817039387s
+compute winnnig post proof (hot): 5.590646663s
+verify winnnig post proof (cold): 41.795401ms
+verify winnnig post proof (hot): 17.804181ms
+
+compute window post proof (cold): 28m23.701103315s
+compute window post proof (hot): 27m49.917823069s
+verify window post proof (cold): 4.911413109s
+verify window post proof (hot): 49.601297ms
+```
