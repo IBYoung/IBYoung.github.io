@@ -6,7 +6,7 @@ author:     "chen yang"
 header-img: "img/post-bg-03.jpg"
 ---
 
-
+---
 ```
 	*   Empty
 		|   |
@@ -44,7 +44,7 @@ header-img: "img/post-bg-03.jpg"
 		    *---------------------/
 
 ```
-
+---
 ## Lotus版本
 ```
 commit a032bbe08751f3c7aa88a56b22276bad5584a07d (HEAD -> master, origin/master, origin/HEAD)
@@ -85,7 +85,7 @@ HARD DISC:
 VGA: NVidia Geforce RTX 2080Ti 11GB
 ```
 
-## Bench测试结果数据(优化后Precommit1）
+## Bench测试结果数据（非优化结果）
 
 ```
 RUST_LOG=info FIL_PROOFS_MAXIMIZE_CACHING=1 ./bench sealing --sector-size 32G   2>&1| tee log
